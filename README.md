@@ -41,7 +41,7 @@ cd ApiRefund
 npm install
 
 # Gere o banco de dados e as tabelas
-npx prisma migrate deploy
+npx prisma migrate dev
 
 # Inicie o servidor em modo desenvolvimento
 npm run dev
